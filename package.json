@@ -12,6 +12,10 @@
   },
   "author": "Arnold Chand",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creativenobu/pokerjs/issues"
+  },
+  "homepage": "https://github.com/creativenobu/pokerjs#readme",
   "devDependencies": {
     "@types/jest": "^26.0.0",
     "eslint": "^7.2.0",
