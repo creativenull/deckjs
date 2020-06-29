@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativenobu/deckjs.git"
+    "url": "git+https://github.com/creativeknot/deckjs.git"
   },
   "author": "Arnold Chand",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativenobu/pokerjs/issues"
+    "url": "https://github.com/creativeknot/pokerjs/issues"
   },
-  "homepage": "https://github.com/creativenobu/pokerjs#readme",
+  "homepage": "https://github.com/creativeknot/pokerjs#readme",
   "devDependencies": {
     "@types/jest": "^26.0.0",
     "eslint": "^7.2.0",
