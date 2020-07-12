@@ -9,9 +9,9 @@ Dependencies
 To install in your project
 
 ```sh
-npm i -S github:creativenobu/deckjs
+npm i -S github:creativenull/deckjs
 # OR
-yarn add github:creativenobu/deckjs
+yarn add github:creativenull/deckjs
 ```
 
 ## Test
