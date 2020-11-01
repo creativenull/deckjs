@@ -20,6 +20,8 @@ export type CardText = {
 
 export type SuitText = CardText
 
+export = Deck
+
 declare class Deck {
   static get CARDS (): string[]
   static get SUITS (): Suit[]
@@ -89,5 +91,3 @@ declare class Deck {
    */
   static getCardText (card: Card): string
 }
-
-export default Deck
