@@ -6,5 +6,5 @@ end_of_line = crlf
 indent_style = space
 insert_final_newline = true
 
-[*.{js,json}]
+[*.{js,ts,json}]
 indent_size = 2
