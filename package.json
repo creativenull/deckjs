@@ -1,5 +1,5 @@
 {
-  "name": "deckjs",
+  "name": "@creativenull/deckjs",
   "version": "1.0.0",
   "description": "A card deck library",
   "main": "lib/Deck.js",
