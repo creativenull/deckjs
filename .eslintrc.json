@@ -6,7 +6,9 @@
     "jest": true
   },
   "extends": [
-    "standard"
+    "standard",
+    "prettier",
+    "prettier/standard"
   ],
   "parserOptions": {
     "ecmaVersion": 11
