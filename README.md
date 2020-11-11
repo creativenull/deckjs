@@ -1,9 +1,5 @@
 # Deck.js
-A simple card deck library written in JS.
-
-Dependencies
-
-+ `lodash.shuffle`
+A simple card deck library written in JavaScript.
 
 ## Installation
 To install in your project
@@ -19,4 +15,6 @@ To run test
 
 ```sh
 npm run test
+# OR
+yarn test
 ```
