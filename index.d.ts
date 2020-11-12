@@ -72,6 +72,15 @@ declare class Deck {
   static parse (cards: string[]): Card[]
 
   /**
+   * Checks if the current object is a valid card type
+   *
+   * @param {Card} playingCard
+   *
+   * @returns {boolean}
+   */
+  static validate (playingCard: Card): boolean
+
+  /**
    * Return the word equivalent of the card suit
    *
    * @param {Card} playingCard
@@ -88,6 +97,16 @@ declare class Deck {
    * @returns {string}
    */
   static getCardText (card: Card): string
+
+  /**
+   * Return the description of the card, if valid.
+   * Else return empty string
+   *
+   * @param {Card} playingCard
+   *
+   * @returns {string}
+   */
+  static getCardDescription (playingCard: Card): string
 }
 
 export = Deck
