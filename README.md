@@ -43,7 +43,7 @@ If no amount was given then it will return an empty array.
 
 ```js
 // Get 5 cards from the deck
-const cards = deck.getCards(5);
+const cards = deck.getCards(5); // [{ id: 22, value: '8', rank: 8, suit: {...} }, ...]
 ```
 
 ## Serialize/Deserialize cards
@@ -51,14 +51,15 @@ If you want to pass the cards around different components and but want to pass d
 the heavy object array, you can serialize it and then parse it later on.
 
 Use the static methods to stringify/parse the cards. Note: we are using the class name `Deck`
-and not `deck` the variable that holds the class instance.
+and not a class instance.
 
 ```js
-// make the cards an array of strings
-const cardsSerialize = Deck.stringify(cards);
+// Serialize/Stringify
+const cardsSerialize = Deck.stringify(cards); // ['22#8H', '99#3D', ...]
 
-// parse the array of string back to the objects
+// Deserialize/Parse
 const cardsParsed = Deck.parse(cardsSerialize);
+// output: [{ id: 22, value: '8', rank: 8, suit: {...} }, {...}, ...]
 ```
 
 ## Get Text instance of a card
