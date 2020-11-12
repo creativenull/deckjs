@@ -13,9 +13,9 @@
   "author": "Arnold Chand",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativenull/pokerjs/issues"
+    "url": "https://github.com/creativenull/deckjs/issues"
   },
-  "homepage": "https://github.com/creativenull/pokerjs#readme",
+  "homepage": "https://github.com/creativenull/deckjs#readme",
   "devDependencies": {
     "@types/jest": "^26.0.0",
     "eslint": "^7.2.0",
