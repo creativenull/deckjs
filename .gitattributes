@@ -1,6 +1,5 @@
 * text=auto
 
-*.js text eol=lf
-*.ts text eol=lf
-*.json text eol=lf
-*.vim text eol=lf
+*.js text
+*.ts text
+*.json text
