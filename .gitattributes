@@ -1,5 +1,5 @@
 * text=auto
 
-*.js text
-*.ts text
-*.json text
+*.js eol=lf
+*.ts eol=lf
+*.json eol=lf
