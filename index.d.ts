@@ -109,4 +109,4 @@ declare class Deck {
   static getCardDescription (playingCard: Card): string
 }
 
-export = Deck
+export default Deck
