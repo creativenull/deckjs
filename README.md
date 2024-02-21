@@ -29,6 +29,7 @@ yarn test
 Create a newly shuffled deck
 
 ```js
+import { Deck } from "@creativenull/deckjs"
 const deck = new Deck();
 ```
 
@@ -36,6 +37,7 @@ You can create a clean sorted deck by passing `false` as the `preShuffle` param,
 or use the `sort` method
 
 ```js
+import { Deck } from "@creativenull/deckjs"
 const deck = new Deck(false);
 
 // Or use sort

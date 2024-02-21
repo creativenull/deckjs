@@ -1,6 +1,6 @@
 {
   "name": "@creativenull/deckjs",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A simple card deck library",
   "main": "./dist/Deck.js",
   "type": "module",
