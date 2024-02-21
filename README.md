@@ -2,12 +2,17 @@
 A simple card deck library written in JavaScript.
 
 ## Installation
-To install in your project
 
 ```sh
 npm i @creativenull/deckjs
 # OR
 yarn add @creativenull/deckjs
+```
+
+For Deno, just import in file.
+
+```ts
+import { Deck } from "jsr:@creativenull/deckjs@2"
 ```
 
 ## Test
