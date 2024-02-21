@@ -1,12 +1,9 @@
 {
   "name": "@creativenull/deckjs",
-  "version": "1.4.5",
-  "description": "A card deck library",
-  "main": "lib/Deck.js",
-  "scripts": {
-    "preinstall": "npx force-resolutions",
-    "test": "jest"
-  },
+  "version": "2.0.0",
+  "description": "A simple card deck library",
+  "main": "./dist/Deck.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/creativenull/deckjs.git"
@@ -17,47 +14,18 @@
     "url": "https://github.com/creativenull/deckjs/issues"
   },
   "homepage": "https://github.com/creativenull/deckjs#readme",
+  "scripts": {
+    "build": "tsc",
+    "fmt": "prettier --write ./src",
+    "test": "vitest run"
+  },
   "devDependencies": {
-    "@types/jest": "^27.4.1",
-    "eslint": "^8.11.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-standard": "^5.0.0",
-    "husky": "^7.0.4",
-    "jest": "^27.5.1",
-    "lint-staged": "^12.3.5",
-    "prettier-standard": "^16.4.1",
-    "typescript": "^4.6.2"
+    "@types/lodash.shuffle": "^4.2.9",
+    "prettier": "^3.2.5",
+    "typescript": "^4.6.2",
+    "vitest": "^1.3.1"
   },
   "dependencies": {
     "lodash.shuffle": "^4.2.0"
-  },
-  "jest": {
-    "verbose": true
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": "prettier-standard --lint"
-  },
-  "directories": {
-    "lib": "lib"
-  },
-  "keywords": [
-    "deck",
-    "js",
-    "cards",
-    "playingcards"
-  ],
-  "resolutions": {
-    "postcss": "^7.0.36",
-    "ansi-regex": "^5.0.1",
-    "trim": "^0.0.3"
   }
 }

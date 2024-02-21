@@ -1,4 +1,3 @@
 node_modules/
-.vim/settings.vim
 .vscode/
-
+.vimrc.*
