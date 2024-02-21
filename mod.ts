@@ -1,4 +1,4 @@
-import shuffle from "npm:lodash.shuffle";
+import shuffle from "npm:lodash.shuffle@4";
 
 export type Card = {
   id: number;
