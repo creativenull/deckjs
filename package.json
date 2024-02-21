@@ -1,8 +1,9 @@
 {
   "name": "@creativenull/deckjs",
-  "version": "2.0.2",
-  "description": "A simple card deck library",
+  "version": "2.1.0",
+  "description": "A simple card deck library written in TypeScript",
   "main": "./dist/Deck.js",
+  "keywords": ["card", "cards", "playing", "playing-card", "playing-cards"],
   "type": "module",
   "repository": {
     "type": "git",
@@ -13,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/creativenull/deckjs/issues"
   },
-  "homepage": "https://github.com/creativenull/deckjs#readme",
+  "homepage": "https://github.com/creativenull/deckjs",
   "scripts": {
     "build": "tsc",
     "fmt": "prettier --write ./src",
