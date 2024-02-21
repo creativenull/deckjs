@@ -1,5 +1,5 @@
 # Deck.js
-A simple card deck library written in JavaScript.
+A simple card deck library written in TypeScript.
 
 ## Installation
 
