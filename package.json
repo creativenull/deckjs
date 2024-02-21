@@ -1,9 +1,15 @@
 {
   "name": "@creativenull/deckjs",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A simple card deck library written in TypeScript",
   "main": "./dist/Deck.js",
-  "keywords": ["card", "cards", "playing", "playing-card", "playing-cards"],
+  "keywords": [
+    "card",
+    "cards",
+    "playing",
+    "playing-card",
+    "playing-cards"
+  ],
   "type": "module",
   "repository": {
     "type": "git",
@@ -23,7 +29,7 @@
   "devDependencies": {
     "@types/lodash.shuffle": "^4.2.9",
     "prettier": "^3.2.5",
-    "typescript": "^4.6.2",
+    "typescript": "^5.3.3",
     "vitest": "^1.3.1"
   },
   "dependencies": {
